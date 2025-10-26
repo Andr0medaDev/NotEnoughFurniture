@@ -27,7 +27,7 @@ import top.andro.not_enough_furniture.init.ModEntities;
 import top.andro.not_enough_furniture.init.ModItems;
 
 import java.util.List;
-
+//
 
 @Mod(NotEnoughFurniture.MOD_ID)
 public class NotEnoughFurniture {
