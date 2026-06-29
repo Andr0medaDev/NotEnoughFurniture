@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "Y  ",
+    "XXX",
+    "Y Y"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:cherry_planks"
+    },
+    "Y": {
+      "item": "minecraft:stripped_cherry_log"
+    }
+  },
+  "result": {
+    "id": "not_enough_furniture:cherry_chair",
+    "count": 4
+  }
+}

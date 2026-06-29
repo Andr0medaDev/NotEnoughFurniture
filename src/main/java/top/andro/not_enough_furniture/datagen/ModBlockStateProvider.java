@@ -1,17 +1,14 @@
 package top.andro.not_enough_furniture.datagen;
 
 import net.minecraft.data.PackOutput;
-import net.minecraft.world.level.block.*;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
 import net.neoforged.neoforge.client.model.generators.ModelFile;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.registries.DeferredBlock;
-import top.andro.not_enough_furniture.NotEnoughFurniture;
 import top.andro.not_enough_furniture.Reference;
-import top.andro.not_enough_furniture.init.ModBlocks;
 
-public class ModBlocksStateProvider extends BlockStateProvider {
-    public ModBlocksStateProvider(PackOutput output, ExistingFileHelper exFileHelper) {
+public class ModBlockStateProvider extends BlockStateProvider {
+    public ModBlockStateProvider(PackOutput output, ExistingFileHelper exFileHelper) {
         super(output, Reference.MOD_ID, exFileHelper);
     }
 

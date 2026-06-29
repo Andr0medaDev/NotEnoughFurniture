@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "YZY",
+    "Y Y"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:spruce_planks"
+    },
+    "Y": {
+      "item": "minecraft:stripped_spruce_log"
+    },
+    "Z": {
+      "item": "minecraft:spruce_slab"
+    }
+  },
+  "result": {
+    "id": "not_enough_furniture:spruce_chair",
+    "count": 4
+  }
+}

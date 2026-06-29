@@ -12,39 +12,46 @@ import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.HorizontalDirectionalBlock;
+import net.minecraft.world.level.block.Mirror;
+import net.minecraft.world.level.block.Rotation;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
+import net.minecraft.world.level.block.state.properties.BlockStateProperties;
+import net.minecraft.world.level.block.state.properties.DirectionProperty;
+import net.minecraft.world.level.block.state.properties.EnumProperty;
 import net.minecraft.world.phys.AABB;
 import net.minecraft.world.phys.BlockHitResult;
+import org.jetbrains.annotations.Nullable;
 import top.andro.not_enough_furniture.entity.SeatEntity;
 import top.andro.not_enough_furniture.init.ModEntities;
 
-import javax.annotation.Nullable;
 import java.util.List;
 
-public abstract class RotatedFurnitureBlock extends HorizontalDirectionalBlock {
+public abstract class RotatedFurnitureBlock extends FurnitureBlock {
+    public static final DirectionProperty DIRECTION = BlockStateProperties.HORIZONTAL_FACING;
 
-    public RotatedFurnitureBlock(Block.Properties properties) {
+    public RotatedFurnitureBlock(Properties properties) {
         super(properties);
-        this.registerDefaultState(this.getStateDefinition().any().setValue(FACING, Direction.NORTH));
     }
 
-    @Override
-    public boolean useShapeForLightOcclusion(BlockState state) {
-        return true;
-    }
-
-    @Nullable
     @Override
     public BlockState getStateForPlacement(BlockPlaceContext context) {
-        return this.defaultBlockState().setValue(FACING, context.getHorizontalDirection().getOpposite());
+        return this.defaultBlockState().setValue(DIRECTION, context.getHorizontalDirection());
     }
 
     @Override
-    protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder)
-    {
-        super.createBlockStateDefinition(builder);
-        builder.add(FACING);
+    public BlockState rotate(BlockState state, Rotation rotation) {
+        return state.setValue(DIRECTION, rotation.rotate(state.getValue(DIRECTION)));
+    }
+
+    @Override
+    public BlockState mirror(BlockState state, Mirror mirror) {
+        return state.rotate(mirror.getRotation(state.getValue(DIRECTION)));
+    }
+
+    @Override
+    protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
+        builder.add(DIRECTION);
     }
 }
 

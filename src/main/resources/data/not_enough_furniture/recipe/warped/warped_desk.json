@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "YZY",
+    "Y Y"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:warped_planks"
+    },
+    "Y": {
+      "item": "minecraft:stripped_warped_log"
+    },
+    "Z": {
+      "item": "minecraft:warped_slab"
+    }
+  },
+  "result": {
+    "id": "not_enough_furniture:warped_chair",
+    "count": 4
+  }
+}

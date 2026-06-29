@@ -18,6 +18,8 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.OAK_CHAIR.get()))
                     .title(Component.translatable("creativetab.not_enough_furniture.not_enough_furniture"))
                     .displayItems((itemDisplayParameters, output) -> {
+                    //output.accept(ModBlocks.MRCRAYFISH_PLUSH);
+
                     output.accept(ModBlocks.OAK_CHAIR);
                     output.accept(ModBlocks.SPRUCE_CHAIR);
                     output.accept(ModBlocks.BIRCH_CHAIR);
@@ -29,6 +31,44 @@ public class ModCreativeModeTabs {
                     output.accept(ModBlocks.CRIMSON_CHAIR);
                     output.accept(ModBlocks.WARPED_CHAIR);
 
+                    output.accept(ModBlocks.OAK_TABLE);
+                    output.accept(ModBlocks.SPRUCE_TABLE);
+                    output.accept(ModBlocks.BIRCH_TABLE);
+                    output.accept(ModBlocks.JUNGLE_TABLE);
+                    output.accept(ModBlocks.ACACIA_TABLE);
+                    output.accept(ModBlocks.DARK_OAK_TABLE);
+                    output.accept(ModBlocks.MANGROVE_TABLE);
+                    output.accept(ModBlocks.CHERRY_TABLE);
+                    output.accept(ModBlocks.CRIMSON_TABLE);
+                    output.accept(ModBlocks.WARPED_TABLE);
+
+                    output.accept(ModBlocks.OAK_DESK);
+                    output.accept(ModBlocks.SPRUCE_DESK);
+                    output.accept(ModBlocks.BIRCH_DESK);
+                    output.accept(ModBlocks.JUNGLE_DESK);
+                    output.accept(ModBlocks.ACACIA_DESK);
+                    output.accept(ModBlocks.DARK_OAK_DESK);
+                    output.accept(ModBlocks.MANGROVE_DESK);
+                    output.accept(ModBlocks.CHERRY_DESK);
+                    output.accept(ModBlocks.CRIMSON_DESK);
+                    output.accept(ModBlocks.WARPED_DESK);
+
+                    output.accept(ModBlocks.WHITE_COUCH);
+                    output.accept(ModBlocks.LIGHT_GRAY_COUCH);
+                    output.accept(ModBlocks.GRAY_COUCH);
+                    output.accept(ModBlocks.BLACK_COUCH);
+                    output.accept(ModBlocks.BROWN_COUCH);
+                    output.accept(ModBlocks.RED_COUCH);
+                    output.accept(ModBlocks.ORANGE_COUCH);
+                    output.accept(ModBlocks.YELLOW_COUCH);
+                    output.accept(ModBlocks.LIME_COUCH);
+                    output.accept(ModBlocks.GREEN_COUCH);
+                    output.accept(ModBlocks.CYAN_COUCH);
+                    output.accept(ModBlocks.LIGHT_BLUE_COUCH);
+                    output.accept(ModBlocks.BLUE_COUCH);
+                    output.accept(ModBlocks.PURPLE_COUCH);
+                    output.accept(ModBlocks.MAGENTA_COUCH);
+                    output.accept(ModBlocks.PINK_COUCH);
                     })
                     .build());
     

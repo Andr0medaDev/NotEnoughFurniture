@@ -1,0 +1,94 @@
+{
+  "variants": {
+    "facing=east,shape=corner_left": {
+      "model": "not_enough_furniture:block/black_couch_corner_left",
+      "y": 90
+    },
+    "facing=east,shape=corner_right": {
+      "model": "not_enough_furniture:block/black_couch_corner_right",
+      "y": 90
+    },
+    "facing=east,shape=default": {
+      "model": "not_enough_furniture:block/black_couch",
+      "y": 90
+    },
+    "facing=east,shape=left": {
+      "model": "not_enough_furniture:block/black_couch_left",
+      "y": 90
+    },
+    "facing=east,shape=middle": {
+      "model": "not_enough_furniture:block/black_couch_middle",
+      "y": 90
+    },
+    "facing=east,shape=right": {
+      "model": "not_enough_furniture:block/black_couch_right",
+      "y": 90
+    },
+    "facing=north,shape=corner_left": {
+      "model": "not_enough_furniture:block/black_couch_corner_left"
+    },
+    "facing=north,shape=corner_right": {
+      "model": "not_enough_furniture:block/black_couch_corner_right"
+    },
+    "facing=north,shape=default": {
+      "model": "not_enough_furniture:block/black_couch"
+    },
+    "facing=north,shape=left": {
+      "model": "not_enough_furniture:block/black_couch_left"
+    },
+    "facing=north,shape=middle": {
+      "model": "not_enough_furniture:block/black_couch_middle"
+    },
+    "facing=north,shape=right": {
+      "model": "not_enough_furniture:block/black_couch_right"
+    },
+    "facing=south,shape=corner_left": {
+      "model": "not_enough_furniture:block/black_couch_corner_left",
+      "y": 180
+    },
+    "facing=south,shape=corner_right": {
+      "model": "not_enough_furniture:block/black_couch_corner_right",
+      "y": 180
+    },
+    "facing=south,shape=default": {
+      "model": "not_enough_furniture:block/black_couch",
+      "y": 180
+    },
+    "facing=south,shape=left": {
+      "model": "not_enough_furniture:block/black_couch_left",
+      "y": 180
+    },
+    "facing=south,shape=middle": {
+      "model": "not_enough_furniture:block/black_couch_middle",
+      "y": 180
+    },
+    "facing=south,shape=right": {
+      "model": "not_enough_furniture:block/black_couch_right",
+      "y": 180
+    },
+    "facing=west,shape=corner_left": {
+      "model": "not_enough_furniture:block/black_couch_corner_left",
+      "y": 270
+    },
+    "facing=west,shape=corner_right": {
+      "model": "not_enough_furniture:block/black_couch_corner_right",
+      "y": 270
+    },
+    "facing=west,shape=default": {
+      "model": "not_enough_furniture:block/black_couch",
+      "y": 270
+    },
+    "facing=west,shape=left": {
+      "model": "not_enough_furniture:block/black_couch_left",
+      "y": 270
+    },
+    "facing=west,shape=middle": {
+      "model": "not_enough_furniture:block/black_couch_middle",
+      "y": 270
+    },
+    "facing=west,shape=right": {
+      "model": "not_enough_furniture:block/black_couch_right",
+      "y": 270
+    }
+  }
+}

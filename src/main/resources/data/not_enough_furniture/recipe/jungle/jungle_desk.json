@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "YZY",
+    "Y Y"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:jungle_planks"
+    },
+    "Y": {
+      "item": "minecraft:stripped_jungle_log"
+    },
+    "Z": {
+      "item": "minecraft:jungle_slab"
+    }
+  },
+  "result": {
+    "id": "not_enough_furniture:jungle_chair",
+    "count": 4
+  }
+}

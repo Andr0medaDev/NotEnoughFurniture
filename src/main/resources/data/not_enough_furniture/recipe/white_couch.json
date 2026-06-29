@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "Y  ",
+    "YYY",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "tag": "minecraft:planks"
+    },
+    "Y": {
+      "item": "minecraft:white_wool"
+    }
+  },
+  "result": {
+    "id": "not_enough_furniture:white_couch",
+    "count": 3
+  }
+}

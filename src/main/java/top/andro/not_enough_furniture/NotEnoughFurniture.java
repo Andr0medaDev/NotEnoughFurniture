@@ -20,6 +20,8 @@ import net.neoforged.neoforge.event.server.ServerStartingEvent;
 import net.neoforged.neoforge.registries.DeferredBlock;
 
 import org.slf4j.Logger;
+import top.andro.not_enough_furniture.entity.CouchSeatEntity;
+import top.andro.not_enough_furniture.entity.CouchSeatRenderer;
 import top.andro.not_enough_furniture.entity.SeatRenderer;
 import top.andro.not_enough_furniture.init.ModBlocks;
 import top.andro.not_enough_furniture.init.ModCreativeModeTabs;
@@ -75,6 +77,7 @@ public class NotEnoughFurniture {
 
 
             EntityRenderers.register(ModEntities.SEAT.get(), SeatRenderer::new);
+            EntityRenderers.register(ModEntities.COUCH_SEAT.get(), CouchSeatRenderer::new);
 
             // Some client setup code
             LOGGER.info("HELLO FROM CLIENT SETUP");

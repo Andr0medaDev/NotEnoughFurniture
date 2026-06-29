@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "YZY",
+    "Y Y"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:crimson_planks"
+    },
+    "Y": {
+      "item": "minecraft:stripped_crimson_log"
+    },
+    "Z": {
+      "item": "minecraft:crimson_slab"
+    }
+  },
+  "result": {
+    "id": "not_enough_furniture:crimson_chair",
+    "count": 4
+  }
+}

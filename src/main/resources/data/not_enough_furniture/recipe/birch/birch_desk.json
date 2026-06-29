@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "YZY",
+    "Y Y"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:birch_planks"
+    },
+    "Y": {
+      "item": "minecraft:stripped_birch_log"
+    },
+    "Z": {
+      "item": "minecraft:birch_slab"
+    }
+  },
+  "result": {
+    "id": "not_enough_furniture:birch_chair",
+    "count": 4
+  }
+}

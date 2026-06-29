@@ -4,9 +4,10 @@ license="GNU GPLv3"
 
 [[mods]] #mandatory
 modId="not_enough_furniture" #mandatory
-version="0.0.1-1.21.1" #mandatory
-displayName="Not Enough Furniture: Remastered" #mandatory
+version="1.0" #mandatory
+displayName="Not Enough Furniture" #mandatory
 authors="Andro" #optional
+logoFile = "assets/not_enough_furniture/banner.png"
 description='''Expansive Furniture Mod for Minecraft'''
 
 [[dependencies.not_enough_furniture]] #optional
@@ -21,3 +22,7 @@ type="required"
 versionRange="${minecraft_version_range}"
 ordering="NONE"
 side="BOTH"
+
+[modproperties.not_enough_furniture]
+catalogueImageIcon = "assets/not_enough_furniture/icon.png"
+catalogueBackground = "assets/not_enough_furniture/background.png"

@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "not_enough_furniture:block/mrcrayfish_plush", "y": 0 },
+    "facing=south": { "model": "not_enough_furniture:block/mrcrayfish_plush", "y": 180 },
+    "facing=west":  { "model": "not_enough_furniture:block/mrcrayfish_plush", "y": 270 },
+    "facing=east":  { "model": "not_enough_furniture:block/mrcrayfish_plush", "y": 90 }
+  }
+}

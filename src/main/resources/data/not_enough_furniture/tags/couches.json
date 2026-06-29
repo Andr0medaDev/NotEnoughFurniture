@@ -1,0 +1,20 @@
+{
+  "values": [
+    "not_enough_furniture:white_couch",
+    "not_enough_furniture:light_gray_couch",
+    "not_enough_furniture:gray_couch",
+    "not_enough_furniture:black_couch",
+    "not_enough_furniture:brown_couch",
+    "not_enough_furniture:red_couch",
+    "not_enough_furniture:orange_couch",
+    "not_enough_furniture:yellow_couch",
+    "not_enough_furniture:lime_couch",
+    "not_enough_furniture:green_couch",
+    "not_enough_furniture:cyan_couch",
+    "not_enough_furniture:light_blue_couch",
+    "not_enough_furniture:blue_couch",
+    "not_enough_furniture:purple_couch",
+    "not_enough_furniture:magenta_couch",
+    "not_enough_furniture:pink_couch"
+  ]
+}

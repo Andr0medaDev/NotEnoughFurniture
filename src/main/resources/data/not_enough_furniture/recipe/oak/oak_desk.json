@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "YZY",
+    "Y Y"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:oak_planks"
+    },
+    "Y": {
+      "item": "minecraft:stripped_oak_log"
+    },
+    "Z": {
+      "item": "minecraft:oak_slab"
+    }
+  },
+  "result": {
+    "id": "not_enough_furniture:oak_chair",
+    "count": 4
+  }
+}

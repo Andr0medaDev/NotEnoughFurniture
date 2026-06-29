@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "YZY",
+    "Y Y"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:acacia_planks"
+    },
+    "Y": {
+      "item": "minecraft:stripped_acacia_log"
+    },
+    "Z": {
+      "item": "minecraft:acacia_slab"
+    }
+  },
+  "result": {
+    "id": "not_enough_furniture:acacia_chair",
+    "count": 4
+  }
+}
