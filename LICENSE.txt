@@ -1,9 +1,8 @@
-MIT License
+Assets (textures, models, sounds) of this Mod are licensed under the Attribution-NonCommercial 4.0 International. This means you are free to share, modify, redistribute the assets freely as long as you give credit to the Original Author and they are used for non-commercial use. This means you are not allowed to sell the assets or put them behind a paywall. You are free to use or modify them in things like resource packs, modpacks, addons, etc. The assets can be used in YouTube Videos (even commercially) as long as the content is Minecraft Related (Ex. Mod Reviews, Mod Showcases, Let's Plays).
 
-Copyright (c) 2023 NeoForged project
+The Code of this Mod is licensed under the following license:
 
-This license applies to the template files as supplied by github.com/NeoForged/MDK
-
+The MIT License Copyright (c) 2026 Andro
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

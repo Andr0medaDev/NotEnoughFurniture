@@ -7,6 +7,7 @@ modId="not_enough_furniture" #mandatory
 version="1.0" #mandatory
 displayName="Not Enough Furniture" #mandatory
 authors="Andro" #optional
+displayURL = "https://github.com/Andr0medaDev/NotEnoughFurniture"
 logoFile = "assets/not_enough_furniture/banner.png"
 description='''Expansive Furniture Mod for Minecraft'''
 
