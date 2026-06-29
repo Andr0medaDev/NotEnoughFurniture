@@ -2,10 +2,7 @@
 Not Enough Furniture: ReCrafted
 =======
 
-Not Enough Furniture: ReCrafted is a remake, from scratch, of the old Not Enough Furniture Mod. The Mod is no longer an Addon, it is now its own thing.
-The Mod is also no longer made in MCreator (yay), it has moved to being coded.
-
-Not Enough Furniture: ReCrafted focuses on adding survival friendly furniture to Minecraft. From things like Chairs, Tables, Couches, and more!
+The Rewrite of Not Enough Furniture: Legacy. What started as an Addon to MrCrayfish's Furniture Mod: Legacy, has now become a Standalone Mod with all new Models, Textures, and Functionality! Ranging from Tables, to Couches, and more!
 
 Versions
 ============
