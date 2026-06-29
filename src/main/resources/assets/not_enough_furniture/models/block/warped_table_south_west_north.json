@@ -4,7 +4,7 @@
 	"texture_size": [128, 64],
 	"textures": {
 		"0": "not_enough_furniture:block/warped_table",
-		"particle": "not_enough_furniture:block/warped_particle"
+		"particle": "minecraft:block/warped_planks"
 	},
 	"elements": [
 		{

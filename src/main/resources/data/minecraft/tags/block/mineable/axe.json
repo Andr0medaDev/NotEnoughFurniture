@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#not_enough_furniture:chairs",
+    "#not_enough_furniture:couches",
+    "#not_enough_furniture:desks",
+    "#not_enough_furniture:tables"
+  ]
+}

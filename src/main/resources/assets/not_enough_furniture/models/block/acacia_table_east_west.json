@@ -4,7 +4,7 @@
 	"texture_size": [128, 64],
 	"textures": {
 		"0": "not_enough_furniture:block/acacia_table",
-		"particle": "not_enough_furniture:block/acacia_particle"
+		"particle": "minecraft:block/acacia_planks"
 	},
 	"elements": [
 		{

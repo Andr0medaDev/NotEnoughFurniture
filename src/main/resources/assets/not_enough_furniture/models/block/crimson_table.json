@@ -4,7 +4,7 @@
 	"texture_size": [128, 64],
 	"textures": {
 		"0": "not_enough_furniture:block/crimson_table",
-		"particle": "not_enough_furniture:block/crimson_particle"
+		"particle": "minecraft:block/crimson_planks"
 	},
 	"elements": [
 		{

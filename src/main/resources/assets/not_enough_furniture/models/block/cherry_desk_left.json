@@ -5,7 +5,7 @@
 	"texture_size": [64, 64],
 	"textures": {
 		"0": "not_enough_furniture:block/cherry_desk",
-		"particle": "not_enough_furniture:particle/cherry_particle"
+		"particle": "minecraft:block/cherry_planks"
 	},
 	"elements": [
 		{
